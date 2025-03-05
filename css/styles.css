@@ -98,18 +98,6 @@ nav a:hover {
     padding: 10px;
 }
 
-/*MAIN STYLES*/
-
-main {
-    margin-top: 60px;
-    margin-bottom: 80px;
-    display: grid;
-    grid-template-rows: 3fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    justify-items: center;
-}
-
 /*HOME PAGE MAIN STYLES*/
 
 #home-main {
@@ -238,6 +226,19 @@ main {
     min-height: 80%;
 }
 
+/*MAIN STYLES*/
+
+#portfolio-main {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-items: center;
+}
+
+
 /*HEADING STYLES*/
 #heading {
     grid-row: 1;
@@ -325,4 +326,196 @@ footer {
     .menu-button {
         display: block;
     }
+
+    main {
+        padding: 20px;
+    }
+
+    #home-main {
+        grid-row: 2;
+        margin-top: 100px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 30px;
+
+    }
+
+    #home-main h1 {
+        grid-row: 1;
+        font-size: 3rem;
+    }
+
+    #home-main p {
+        grid-row: 2;
+        text-align: center;
+        font-size: 1.25rem;
+
+    }
+
+    #about-brief {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 25%;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    #about-brief-text {
+        justify-self: flex-start;
+        grid-row: 2;
+        grid-column: 1;
+        text-align: left;
+    }
+
+    #about-brief h2 {
+        text-align: center;
+    }
+
+    #about-brief-text p {
+        text-align: center;
+    }
+
+    #about-brief-img {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #portfolio-brief {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 1fr 1fr;
+        margin-top: 40px;
+    }
+
+    #portfolio-brief-text {
+        grid-row: 1;
+        text-align: center;
+        grid-column: 1;
+    }
+
+
+    #portfolio-brief-img1 {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    #portfolio-brief-img2 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+
+    /*ABOUT PAGE STYLES*/
+
+    #about-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15% 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        gap: 0;
+    }
+
+    #about-main p {
+        grid-row: 3;
+        grid-column: 1;
+        font-size: 1.25em;
+        text-align: center;
+
+    }
+
+    #about-main img {
+        grid-row: 2;
+        grid-column: 1;
+
+    }
+
+    #about-main h2 {
+        grid-row: 1;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    /*RESUME PAGE STYLES*/
+
+    #resume-main {
+        display: grid;
+        grid-template-rows: 15% 1fr;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #resume-main h2 {
+        grid-row: 1;
+    }
+
+    #resume-pdf {
+        grid-row: 2;
+        min-width: 70%;
+        min-height: 80%;
+    }
+
+    #portfolio-main {
+        margin-top: 60px;
+        margin-bottom: 80px;
+        display: grid;
+        grid-template-rows: 10% 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        justify-items: center;
+
+    }
+
+
+    /*HEADING STYLES*/
+    #heading {
+        grid-row: 1;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    /*CURRENT PROJECT STYLES*/
+
+    #current-projects {
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+    /*FLORA FAUNA STYLES*/
+
+    #flora-fauna {
+        display: grid;
+        grid-row: 2;
+        grid-column: 1;
+        justify-items: center;
+    }
+
+    #flora-fauna P {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    /*ROOTS STYLES*/
+
+    #roots {
+        display: grid;
+        grid-row: 3;
+        grid-column: 1;
+        justify-items: center;
+    }
+
+    #roots p {
+        max-width: 80%;
+        text-align: center;
+    }
+
 }
