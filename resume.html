@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Work</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <!--<video autoplay muted loop id="bg-video">
+        <source src="background-video.mp4" type="video/mp4">
+    </video>-->
     <!--NAV BAR-->
     <nav>
         <ul class="mobile-bar">
@@ -39,45 +42,15 @@
         </ul>
     </nav>
 
-    <!--BODY-->
-    <!--MAIN-->
-    <main>
-        <!--HEADING-->
-        <section id="heading">
-            <h1>My Work</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, in odio! Possimus. Lorem ipsum dolor
-                sit
-                amet
-                consectetur adipisicing elit. Quas, soluta?</p>
-        </section>
-        <!--FIRST PROJECT-->
-        <section id="flora-fauna">
-            <h2>Flora Fauna</h2>
-            <img class="img-fluid" src="images/Flora-Fauna.png" alt="photo of Flora Fauna homepage">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi hic, necessitatibus fuga
-                asperiores
-                sed molestias nostrum. Ullam mollitia qui obcaecati eaque eveniet odio officia doloremque adipisci
-                modi
-                consequuntur alias, pariatur veniam. Minus voluptate aliquid ab, numquam eum quidem. Quibusdam.</p>
-        </section>
-        <!--SECOND PROJECT-->
-        <section id="roots">
-            <h2>Roots</h2>
-            <img class="img-fluid" src="images/Roots.png" alt="photo of Roots app pages">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi hic, necessitatibus fuga
-                asperiores
-                sed molestias nostrum. Ullam mollitia qui obcaecati eaque eveniet odio officia doloremque adipisci
-                modi
-                consequuntur alias, pariatur veniam. Minus voluptate aliquid ab, numquam eum quidem. Quibusdam.</p>
-        </section>
-        <!--CHECK MY PROJECTS LINK-->
-        <section id="current-projects">
-            <a href="#">Check out my current projects!</a>
-        </section>
-    </main>
+    <main id="resume-main">
+        <h2>Resume </h2>
+        <a href="Resume (1).pdf" download="Resume (1).pdf">
+            <embed src="Resume (1).pdf" type="application/pdf" width="600" height="400">
+        </a>
 
-    <!--FOOTER-->
-    <footer>
+
+    </main>
+    <footer id="home-footer">
         <section id="contacts">
             <p><a href="mailto:kamucha@my.waketech.edu">kamucha@my.waketech.edu</a></p>
             <p><a href="tel:1234567890">123-456-7890</a></p>
@@ -89,20 +62,6 @@
             </a>
         </section>
     </footer>
-
-    <script>
-
-        function ShowSideBar() {
-            const mobilebar = document.querySelector('.mobile-bar')
-            mobilebar.style.display = "flex"
-        }
-
-        function HideSideBar() {
-            const mobilebar = document.querySelector('.mobile-bar')
-            mobilebar.style.display = "none"
-        }
-
-    </script>
 
 </body>
 
